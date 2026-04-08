@@ -21,5 +21,5 @@ contract Quiz {
             answered = true;
             payable(msg.sender).transfer(reward);
         }
-    
+    }
 }
